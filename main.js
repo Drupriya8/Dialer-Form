@@ -27,6 +27,7 @@
       //  const No = tabledat2.value
       // let attrvalue = "tel:" + No
       // console.log(attrvalue)
+      let dialnumber = `tel:${contact.value}`
     let tabledat3 = document.createElement("td")
        tabledat3.innerText = email.value
     let tabledat4 = document.createElement("td")
@@ -39,7 +40,7 @@
      let diallink = document.createElement("a")    
      diallink.className = "text-light text-decoration-none" 
      diallink.innerText = "Call"
-     diallink.setAttribute('href', 'tel:7470376772')
+     diallink.setAttribute('href', dialnumber)
 
      dialbtn.appendChild(diallink)
       
